@@ -1,0 +1,42 @@
+{
+    "firstName": "Atul",
+    "lastName": "Morchhlay",
+    "designation": "full-stack developer with expertise in the MERN stack",
+    "instagram": "https://www.instagram.com/atul.morchhlay",
+    "linkedin": "https://www.linkedin.com/in/atul-morchhlay",
+    "github": "https://github.com/atul24112001",
+    "experience": {
+        "internship": "8 months",
+        "fullTime": "01-01-2023"
+    },
+    "about": "I have 8 months of internship experience, followed by 6 months of full-time experience, working as a full-stack developer with expertise in the MERN stack.",
+    "graduation": "Bachelor of computer applications(BCA), Chandigarh University",
+    "skills": [
+        "ReactJs",
+        "NodeJs",
+        "MongoDb",
+        "Express",
+        "Azure Function",
+        "MongoDb Triggers",
+        "Kafka",
+        "MaterialUi",
+        "NextJs",
+        "Antd",
+        "Tailwind",
+        "Azure Communication Service"
+    ],
+    "timeline": [
+        {
+            "company": "Settyl",
+            "form": "01-01-2023",
+            "to": "",
+            "position": "Full-Stack Engineer - I"
+        },
+        {
+            "company": "Settyl",
+            "form": "05-15-2022",
+            "to": "12-31-2022",
+            "position": "Full-Stack Developer Intern"
+        }
+    ]
+}
