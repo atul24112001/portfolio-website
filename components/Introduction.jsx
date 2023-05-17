@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React, { useMemo } from 'react'
 import Chip from './Chip'
+import Timeline from './Timeline';
 
 export default function Introduction({ details }) {
 
@@ -25,7 +26,7 @@ export default function Introduction({ details }) {
                 quality={90}
             />
             <div className="flex flex-col justify-center gap-4 items-start w-[90%] lg:w-[45%] h-auto m-auto lg:m-0">
-                <h2 className="text-2xl mt-5 lg:mt-0">Hi I&apos;m&nbsp;
+                <h2 className="text-2xl mt-5 lg:mt-0">Hello, I&apos;m&nbsp;
                     <span className="text-primary-color font-bold">{details.firstName + " " + details.lastName}</span>,
 
                 </h2>
@@ -41,6 +42,7 @@ export default function Introduction({ details }) {
                     <h2 className="text-xl font-semibold">Skill : </h2>
                     {details.skills.map((skill, i) => <Chip key={`${i + 1}`} title={skill} />)}
                 </div>
+                <Timeline timeline={details.timeline} />
             </div>
         </div>
     )

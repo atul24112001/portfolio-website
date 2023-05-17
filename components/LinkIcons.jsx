@@ -15,7 +15,7 @@ export default function LinkIcons({ link, Icon, color }) {
 
     return (
         <Link onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)} href={link} target="_blank">
-            <Icon fontSize="20px" color={currentColor} className={`cursor-pointer hover:text-white`} />
+            <Icon fontSize="20px" color={currentColor} className={`cursor-pointer hover:scale-125 transition-all ease-out hover:text-white`} />
         </Link>
     )
 }
