@@ -15,7 +15,9 @@ module.exports = {
       colors: {
         "primary-color": "var(--primary-color)",
       },
-
+      boxShadow: {
+        '3xl': '0 2px 15px  var(--primary-lite-color)',
+      }
     },
   },
   plugins: [],

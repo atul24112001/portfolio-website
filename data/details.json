@@ -2,6 +2,8 @@
     "firstName": "Atul",
     "lastName": "Morchhlay",
     "designation": "full-stack developer with expertise in the MERN stack",
+    "email": "atulmorchhlay204@gmail.com",
+    "contact": "+91 9669801746",
     "instagram": "https://www.instagram.com/atul.morchhlay",
     "linkedin": "https://www.linkedin.com/in/atul-morchhlay",
     "github": "https://github.com/atul24112001",
@@ -38,5 +40,21 @@
             "to": "12-31-2022",
             "position": "Full-Stack Developer Intern"
         }
-    ]
+    ],
+    "projects": {
+        "beginner": [
+            {
+                "title": "Clock",
+                "description": "I is an simple project with two kinds of clock one is analog watch the other is digital.",
+                "stack": [
+                    "React",
+                    "Styled-Components",
+                    "Moment"
+                ],
+                "url": "https://atul-morchhlay-clock.netlify.app/"
+            }
+        ],
+        "intermediate": [],
+        "advance": []
+    }
 }

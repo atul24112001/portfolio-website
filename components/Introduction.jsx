@@ -22,15 +22,18 @@ export default function Introduction({ details }) {
                 src="/Images/Profile.jpg"
                 width={1000}
                 height={1000}
-                className="w-[90%] lg:w-[45%] h-auto m-auto lg:m-0 "
+                className="w-[90%] lg:w-[50%] h-auto m-auto lg:m-0 "
                 quality={90}
             />
             <div className="flex flex-col justify-center gap-4 items-start w-[90%] lg:w-[45%] h-auto m-auto lg:m-0">
                 <h2 className="text-2xl mt-5 lg:mt-0">Hello, I&apos;m&nbsp;
                     <span className="text-primary-color font-bold">{details.firstName + " " + details.lastName}</span>,
-
                 </h2>
-                <p className="text-xs text-gray-300 -translate-y-2">{details.graduation}</p>
+                <div className='-translate-y-2'>
+                    <p className="text-xs text-gray-300"><span className='text-white font-bold'>Mobile&nbsp;:</span>{details.contact}</p>
+                    <p className="text-xs text-gray-300"><span className='text-white font-bold'>Email&nbsp;:</span>{details.email}</p>
+                    <p className="text-xs text-gray-300"><span className='text-white font-bold'>Degree&nbsp;:</span>{details.graduation}</p>
+                </div>
                 <p className="text-xl">
                     I have
                     &nbsp;<span className="font-bold text-primary-color">{details.experience.internship}</span>&nbsp;
