@@ -22,7 +22,7 @@ export default function Introduction({ details }) {
                 src="/Images/Profile.jpg"
                 width={1000}
                 height={1000}
-                className="w-[90%] lg:w-[50%] h-auto m-auto lg:m-0 "
+                className="w-[90%] rounded-full lg:w-[50%] h-auto m-auto lg:m-0 "
                 quality={90}
             />
             <div className="flex flex-col justify-center gap-4 items-start w-[90%] lg:w-[45%] h-auto m-auto lg:m-0">
