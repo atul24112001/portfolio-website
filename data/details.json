@@ -25,7 +25,8 @@
         "NextJs",
         "Antd",
         "Tailwind",
-        "Azure Communication Service"
+        "Azure Communication Service",
+        "Type-Script"
     ],
     "timeline": [
         {
@@ -44,14 +45,27 @@
     "projects": {
         "beginner": [
             {
+                "title": "Image Uploader",
+                "description": "I is an simple project with two kinds of clock one is analog watch the other is digital.",
+                "stack": [
+                    "NextJs",
+                    "Tailwind",
+                    "Type-Script",
+                    "MongoDb"
+                ],
+                "url": "https://atul-morchhlay-image-uploader.netlify.app",
+                "github": "https://github.com/atul24112001/image-uploader"
+            },
+            {
                 "title": "Clock",
                 "description": "I is an simple project with two kinds of clock one is analog watch the other is digital.",
                 "stack": [
-                    "React",
+                    "NextJs",
                     "Styled-Components",
                     "Moment"
                 ],
-                "url": "https://atul-morchhlay-clock.netlify.app/"
+                "url": "https://atul-morchhlay-clock.netlify.app/",
+                "github": "https://github.com/atul24112001"
             }
         ],
         "intermediate": [],
