@@ -13,6 +13,7 @@
     },
     "about": "I have 8 months of internship experience, followed by 6 months of full-time experience, working as a full-stack developer with expertise in the MERN stack.",
     "graduation": "Bachelor of computer applications(BCA), Chandigarh University",
+    "resume": "https://drive.google.com/file/d/1u823pkg2U4_Z2sVPFq9_0BXOx7q5OHrp/view?usp=sharing",
     "skills": [
         "ReactJs",
         "NodeJs",
@@ -46,7 +47,7 @@
         "beginner": [
             {
                 "title": "Image Uploader",
-                "description": "I is an simple project with two kinds of clock one is analog watch the other is digital.",
+                "description": "In this app you can upload images and you will get a url of the image through which you can access your image any where.",
                 "stack": [
                     "NextJs",
                     "Tailwind",
@@ -58,7 +59,7 @@
             },
             {
                 "title": "Clock",
-                "description": "I is an simple project with two kinds of clock one is analog watch the other is digital.",
+                "description": "This is a simple project with two kinds of clock one is analog watch the other is digital.",
                 "stack": [
                     "NextJs",
                     "Styled-Components",

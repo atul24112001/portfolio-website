@@ -1,6 +1,7 @@
 import React from 'react'
 import { RiInstagramFill, RiLinkedinBoxFill, RiGithubFill } from "react-icons/ri";
 import LinkIcons from './LinkIcons';
+import Link from 'next/link';
 
 export default function NavBar({ details }) {
     return (
@@ -12,6 +13,7 @@ export default function NavBar({ details }) {
                 </i>
             </h1>
             <div className="flex gap-2">
+                <Link target='_blank' className='border-primary-color hover:bg-primary-color hover:text-[#252525] font-semibold border-[2px] text-primary-color rounded-md py-1 px-4 text-xs' href={details.resume}>RESUME</Link>
                 <LinkIcons Icon={RiInstagramFill} link={details.instagram} color="#d62976" />
                 <LinkIcons Icon={RiLinkedinBoxFill} link={details.linkedin} color="#0a66c2" />
                 <LinkIcons Icon={RiGithubFill} link={details.github} color="#ccc" />
