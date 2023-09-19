@@ -22,7 +22,7 @@ export default function Introduction({ details }) {
                 src="/Images/Profile.jpg"
                 width={1000}
                 height={1000}
-                className="w-[90%] rounded-full lg:w-[50%] h-auto m-auto lg:m-0 "
+                className="w-[90%] rounded-full lg:w-[50%] object-cover h-auto m-auto lg:m-0 "
                 quality={90}
             />
             <div className="flex flex-col justify-center gap-4 items-start w-[90%] lg:w-[45%] h-auto m-auto lg:m-0">
@@ -30,16 +30,16 @@ export default function Introduction({ details }) {
                     <span className="text-primary-color font-bold">{details.firstName + " " + details.lastName}</span>,
                 </h2>
                 <div className='-translate-y-2'>
-                    <p className="text-xs text-gray-300"><span className='text-white font-bold'>Mobile&nbsp;:</span>{details.contact}</p>
-                    <p className="text-xs text-gray-300"><span className='text-white font-bold'>Email&nbsp;:</span>{details.email}</p>
-                    <p className="text-xs text-gray-300"><span className='text-white font-bold'>Degree&nbsp;:</span>{details.graduation}</p>
+                    <p className="text-sm text-gray-300"><span className='text-white font-bold'>Mobile&nbsp;:&nbsp;</span><a href={`tel:+919669801746}`}>{details.contact}</a></p>
+                    <p className="text-sm text-gray-300"><span className='text-white font-bold'>Email&nbsp;:&nbsp;</span><a href={`mailto:${details.email}`}>{details.email}</a></p>
+                    <p className="text-sm text-gray-300"><span className='text-white font-bold'>Degree&nbsp;:&nbsp;</span>{details.graduation}</p>
                 </div>
                 <p className="text-xl">
-                    I have
+                    I possess a solid foundation in software development, having completed an
                     &nbsp;<span className="font-bold text-primary-color">{details.experience.internship}</span>&nbsp;
-                    of internship experience, followed by
+                    internship followed by
                     &nbsp;<span className="font-bold text-primary-color">{fullTime}</span>&nbsp;
-                    of full-time experience, working as a {details.designation}.
+                    of full-time employment as a full-stack developer.
                 </p>
                 <div className="flex flex-wrap gap-1 items-center">
                     <h2 className="text-xl font-semibold">Skill : </h2>

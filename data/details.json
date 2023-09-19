@@ -1,9 +1,9 @@
 {
     "firstName": "Atul",
     "lastName": "Morchhlay",
-    "designation": "full-stack developer with expertise in the MERN stack",
+    "designation": "full-stack developer",
     "email": "atulmorchhlay204@gmail.com",
-    "contact": "+91 9669801746",
+    "contact": "🇮🇳+91 9669801746",
     "instagram": "https://www.instagram.com/atul.morchhlay",
     "linkedin": "https://www.linkedin.com/in/atul-morchhlay",
     "github": "https://github.com/atul24112001",
@@ -18,6 +18,7 @@
         "ReactJs",
         "NodeJs",
         "MongoDb",
+        "PostgresSql",
         "Express",
         "Azure Function",
         "MongoDb Triggers",
@@ -27,7 +28,11 @@
         "Antd",
         "Tailwind",
         "Azure Communication Service",
-        "Typescript"
+        "Typescript",
+        "Flutter",
+        "SQL",
+        "Prisma",
+        "Mongoose"
     ],
     "timeline": [
         {
@@ -40,7 +45,7 @@
             "company": "Settyl",
             "form": "05-15-2022",
             "to": "12-31-2022",
-            "position": "Full-Stack Developer Intern"
+            "position": "Full-Stack Engineer - Intern"
         }
     ],
     "projects": {

@@ -10,12 +10,13 @@ import Projects from "@/components/Projects";
 export default function Home() {
 
   return (
-    <main className="w-screen h-screen overflow-auto bg-[#252525] p-2 border-[4px] border-primary-color">
+    <main className="w-screen h-screen overflow-auto bg-[#252525] p-2 border-[0px] border-primary-color">
       <NavBar details={details} />
       <Introduction details={details} />
       <Projects projects={details.projects.advance} type="Advance" />
       <Projects projects={details.projects.intermediate} type="Intermediate" />
       <Projects projects={details.projects.beginner} type="Beginner" />
     </main>
+
   )
 }
