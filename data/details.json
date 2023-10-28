@@ -32,7 +32,9 @@
         "Flutter",
         "SQL",
         "Prisma",
-        "Mongoose"
+        "Mongoose",
+        "Docker",
+        "Kubernetes"
     ],
     "timeline": [
         {
@@ -48,33 +50,44 @@
             "position": "Full-Stack Engineer - Intern"
         }
     ],
-    "projects": {
-        "beginner": [
-            {
-                "title": "Image Uploader",
-                "description": "In this app you can upload images and you will get a url of the image through which you can access your image any where.",
-                "stack": [
-                    "NextJs",
-                    "Tailwind",
-                    "Typescript",
-                    "MongoDb"
-                ],
-                "url": "https://atul-morchhlay-image-uploader.netlify.app",
-                "github": "https://github.com/atul24112001/image-uploader"
-            },
-            {
-                "title": "Clock",
-                "description": "This is a simple project with two kinds of clock one is analog watch the other is digital.",
-                "stack": [
-                    "NextJs",
-                    "Styled-Components",
-                    "Moment"
-                ],
-                "url": "https://atul-morchhlay-clock.netlify.app/",
-                "github": "https://github.com/atul24112001"
-            }
-        ],
-        "intermediate": [],
-        "advance": []
-    }
+    "projects": [
+        {
+            "title": "API Generator",
+            "description": "You can create CURD apis for you projects and any other use.",
+            "type": "Intermediate",
+            "stack": [
+                "NextJs",
+                "Tailwind",
+                "Typescript",
+                "Postgres"
+            ],
+            "url": "https://apigenerator.atulmorchhlay.com",
+            "github": "https://github.com/atul24112001/api-generator"
+        },
+        {
+            "title": "Clock",
+            "description": "This is a simple project with two kinds of clock one is analog watch the other is digital.",
+            "stack": [
+                "NextJs",
+                "Styled-Components",
+                "Moment"
+            ],
+            "type": "Easy",
+            "url": "https://atul-morchhlay-clock.netlify.app/",
+            "github": "https://github.com/atul24112001"
+        },
+        {
+            "title": "Image Uploader",
+            "description": "In this app you can upload images and you will get a url of the image.",
+            "stack": [
+                "NextJs",
+                "Tailwind",
+                "Typescript",
+                "MongoDb"
+            ],
+            "type": "Easy",
+            "url": "https://atul-morchhlay-image-uploader.netlify.app",
+            "github": "https://github.com/atul24112001/image-uploader"
+        }
+    ]
 }
