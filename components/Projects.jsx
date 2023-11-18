@@ -1,12 +1,10 @@
-import { startCase } from 'lodash';
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Chip from './Chip';
-import Link from 'next/link';
 import LinkIcons from './LinkIcons';
-import { RiInstagramFill, RiLink, RiGithubFill } from "react-icons/ri";
+import { RiLink, RiGithubFill } from "react-icons/ri";
 
-export default function Projects({ projects = [], type }) {
+export default function Projects({ projects = [] }) {
 
 
 

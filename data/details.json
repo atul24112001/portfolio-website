@@ -52,6 +52,20 @@
     ],
     "projects": [
         {
+            "title": "Instagram clone",
+            "description": "In progress, social media clone.",
+            "type": "Advance",
+            "stack": [
+                "ReactJs",
+                "Typescript",
+                "Postgres",
+                "NodeJs",
+                "Graphql"
+            ],
+            "url": "https://instagram.atulmorchhlay.com",
+            "github": "https://github.com/atul24112001/instagram-clone"
+        },
+        {
             "title": "API Generator",
             "description": "You can create CURD apis for you projects and any other use.",
             "type": "Intermediate",
