@@ -20,5 +20,5 @@ else
 fi
 
 
-docker run -d -p 3000:3000 atul24112001/$IMAGE_NAME:latest
+docker run --name $IMAGE_NAME -d -p 3000:3000 atul24112001/$IMAGE_NAME:latest
 echo "Build completed"
