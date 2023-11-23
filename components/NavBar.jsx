@@ -13,7 +13,7 @@ export default function NavBar({ details }) {
                 </i>
             </h1>
             <div className="flex gap-2">
-                <Link target='_blank' className='border-primary-color hover:bg-primary-color hover:text-[#252525] font-semibold border-[2px] text-primary-color rounded-md py-1 px-4 text-xs' href={details.resume}>
+                <Link target='_blank' className='border-primary-color hover:bg-primary-color hover:text-[#252525] font-semibold border-[2px] text-primary-color rounded-md py-1 px-4 text-xs' href={"/atul_morchhlay_resume.pdf"}>
                     Resume
                 </Link>
                 <LinkIcons Icon={RiLinkedinBoxFill} link={details.linkedin} color="#0a66c2" />
