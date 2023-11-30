@@ -3,6 +3,8 @@ import React from 'react'
 import Chip from './Chip';
 import LinkIcons from './LinkIcons';
 import { RiLink, RiGithubFill } from "react-icons/ri";
+import IconButton from './IconButton';
+import { Github, Link } from 'lucide-react';
 
 export default function Projects({ projects = [] }) {
 
@@ -29,8 +31,10 @@ export default function Projects({ projects = [] }) {
                                 <div className='flex items-center gap-1 justify-between'>
                                     <h3 className='font-bold text-xl'>{project.title}</h3>
                                     <div className='flex items-center gap-1'>
-                                        <LinkIcons tooltip="Website" Icon={RiLink} link={project.url} color="#6a8aff" />
-                                        <LinkIcons tooltip="Github" Icon={RiGithubFill} link={project.github} color="#ccc" />
+                                        <IconButton to={project.url} tooltip="website"><Link size={20} /></IconButton>
+                                        <IconButton to={project.github} tooltip="code"><Github size={20} /></IconButton>
+                                        {/* <LinkIcons tooltip="Website" Icon={RiLink} link={project.url} color="#6a8aff" /> */}
+                                        {/* <LinkIcons tooltip="Github" Icon={RiGithubFill} link={project.github} color="#ccc" /> */}
                                     </div>
                                 </div>
                                 <div className={`font-bold ${project.type == "Easy" ? "text-green-400" : project.type === "Intermediate" ? "text-yellow-400" : "text-red-400"}`}>{project.type}</div>
