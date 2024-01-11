@@ -20,27 +20,25 @@
         "MongoDb",
         "PostgresSql",
         "Express",
-        "Azure Function",
-        "MongoDb Triggers",
-        "Kafka",
-        "MaterialUi",
         "NextJs",
-        "Antd",
-        "Tailwind",
-        "Azure Communication Service",
         "Typescript",
         "Flutter",
         "SQL",
-        "Prisma",
-        "Mongoose",
         "Docker",
-        "Kubernetes"
+        "Kubernetes",
+        "Golang"
     ],
     "timeline": [
         {
+            "company": "Freelancer",
+            "form": "01-01-2024",
+            "to": "",
+            "position": "Full-Stack Engineer"
+        },
+        {
             "company": "Settyl",
             "form": "01-01-2023",
-            "to": "",
+            "to": "12-31-2023",
             "position": "Full-Stack Engineer - I"
         },
         {
@@ -51,6 +49,20 @@
         }
     ],
     "projects": [
+        {
+            "title": "MyAiTeacher",
+            "description": "It is a application for students of class 1st to 10th having features like read along, spellings and pronunciation",
+            "type": "Advance",
+            "stack": [
+                "Flutter",
+                "React",
+                "Postgres",
+                "NodeJs"
+            ],
+            "url": "https://play.google.com/store/apps/details?id=com.mmbg.myaiteaher&pcampaignid=web_share"
+        }
+    ],
+    "personalProjects": [
         {
             "title": "Instagram clone",
             "description": "In progress, social media clone.",
